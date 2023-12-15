@@ -1,0 +1,15 @@
+{
+  "name": "bugs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "orval -i ./schema.yaml -o out.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "orval": "^6.22.1",
+    "typescript": "^5.3.3"
+  }
+}
