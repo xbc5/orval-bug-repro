@@ -1,4 +1,4 @@
-`requestBody` is optional by default in OpenAPI 3.0[1](https://swagger.io/docs/specification/describing-request-body/). Orval does not respect that; it also does not respect `required: false`.
+`requestBody` is optional by default in OpenAPI 3.0[[1]](https://swagger.io/docs/specification/describing-request-body/). Orval does not respect that; it also does not respect `required: false`.
 
 See the spec in [schema.yaml](schema.yaml), and the results in [out.ts](out.ts).
 
